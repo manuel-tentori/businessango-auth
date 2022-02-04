@@ -1,4 +1,4 @@
 ﻿{
-    "connectionString": "mongodb+srv://manueltentori:Nute2019tiamo!@cluster0.bi50r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "connectionString": "mongodb+srv://manueltentori:Nute2019tiamo!@cluster0.bi50r.mongodb.net/businessandgo?retryWrites=true&w=majority",
     "secret": "sommo"
 }
