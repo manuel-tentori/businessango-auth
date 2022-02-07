@@ -79,7 +79,6 @@ function revokeToken(req, res, next) {
 
 function registerSchema(req, res, next) {
     const schema = Joi.object({
-        title: Joi.string().required(),
         firstName: Joi.string().required(),
         lastName: Joi.string().required(),
         email: Joi.string().email().required(),
@@ -169,7 +168,6 @@ function getById(req, res, next) {
 
 function createSchema(req, res, next) {
     const schema = Joi.object({
-        title: Joi.string().required(),
         firstName: Joi.string().required(),
         lastName: Joi.string().required(),
         email: Joi.string().email().required(),
@@ -188,7 +186,6 @@ function create(req, res, next) {
 
 function updateSchema(req, res, next) {
     const schemaRules = {
-        title: Joi.string().empty(''),
         firstName: Joi.string().empty(''),
         lastName: Joi.string().empty(''),
         email: Joi.string().email().empty(''),
